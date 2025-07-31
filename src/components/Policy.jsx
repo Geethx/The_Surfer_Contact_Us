@@ -21,7 +21,7 @@ const Policy = () => {
         viewport={{ once: true }}
       >
         <motion.p 
-          className="text-sm sm:text-base leading-relaxed text-center"
+          className="text-xs sm:text-sm leading-relaxed text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
@@ -32,7 +32,7 @@ const Policy = () => {
         </motion.p>
 
         <motion.p 
-          className="text-sm sm:text-base leading-relaxed text-center"
+          className="text-xs sm:text-sm leading-relaxed text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}

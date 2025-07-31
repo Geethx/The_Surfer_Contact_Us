@@ -16,8 +16,17 @@ const Home = () => {
         <Form />
         <Contact />
         <Map />
-        <Inquiries />
-        <Policy />
+        {/* Policy and Inquiries in row layout */}
+        <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            <div className="flex justify-center">
+              <Inquiries />
+            </div>
+            <div className="flex justify-center">
+              <Policy />
+            </div>
+          </div>
+        </div>
         <Footer />
     </div>
   )
